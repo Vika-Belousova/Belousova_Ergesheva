@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\clientserver1\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\2stage\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\clientserver1\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj": {
+    "C:\\Users\\Admin\\Desktop\\2stage\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\clientserver1\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\2stage\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj",
         "projectName": "BelousovaViktoriyaApp",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\clientserver1\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\2stage\\BelousovaViktoriyaApp\\BelousovaViktoriyaApp.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\clientserver1\\BelousovaViktoriyaApp\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\2stage\\BelousovaViktoriyaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3,5 +3,16 @@
 
 using BelousovaViktoriyaClient;
 
+CreateDirectory();
+await SocketClient.StartClient();
+return;
 
-SocketClient.StartClient();
+void CreateDirectory()
+{
+    const string directoryPath = "../client/data";
+    var di = new DirectoryInfo(directoryPath);
+    if (!di.Exists)
+    {
+        Directory.CreateDirectory(directoryPath);
+    }
+}

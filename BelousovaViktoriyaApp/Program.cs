@@ -1,16 +1,20 @@
 ﻿using BelousovaViktoriyaApp;
 
 var result = new SocketListener();
-CreateDirectory();
+await CreateDirectoryAndDefaultFiles();
 await result.StartServer();
+return;
 
 
-void CreateDirectory()
+async Task CreateDirectoryAndDefaultFiles()
 {
-    var directoryPath = "../server/data";
+    const string directoryPath = "../server/data";
     var di = new DirectoryInfo(directoryPath);
     if (!di.Exists)
     {
         Directory.CreateDirectory(directoryPath);
+        var fileStream = File.Create(directoryPath + "/numberOfFiles.json");
+        await fileStream.WriteAsync("{}".Select(p => (byte)p).ToArray());
+        await fileStream.DisposeAsync();
     }
 }
